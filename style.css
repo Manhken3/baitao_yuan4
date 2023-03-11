@@ -1,0 +1,13 @@
+li1 :first-child{
+    color: brown;
+}
+li2 :first-child{
+    color: aqua;
+}
+li :first-child(2){
+    color: rgb(5, 10, 10);
+}
+::first-letter{
+    font-weight: bold;
+    font-size: 32px;
+}
